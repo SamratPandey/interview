@@ -24,8 +24,6 @@ const getDistence = (lat1, lon1, lat2, lon2) =>{
 
 
 
-
-
 schoolRouter.post('/addSchool', async (req, res) =>{
     const { name, address, latitude, longitude } = req.body;
 
